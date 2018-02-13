@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Monoton|Passion+One|Varela+Round');
+html {
+    font-size: 62.5%;
+}
 body {
     background: #004851;
 }
@@ -9,23 +12,28 @@ h1 {
     color: white;
     text-align: center;
     font-family: Monoton, sans-serif;
-    font-size: 5rem;
-    letter-spacing: .35rem;
+    font-size: 7.5rem;
+    letter-spacing: .7rem;
     word-spacing: 1rem;
     margin-bottom: .5rem;
     margin-top: .5rem;
+    text-shadow: .3rem .3rem .5rem #004851;
 }
 header {
     font-family: "Varela Round", sans-serif;
-    font-size: 135%;
+    font-size: 1.5rem;
+    background-image: linear-gradient(rgba(0,0,0,.50),transparent), url("https://i.imgur.com/N6Bts5M.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 130rem;
 }    
 h2 {
     color: white;
     text-align: center;
     font-family: Bungee, sans-serif;
-    font-size: 200%;
+    font-size: 4.75rem;
     margin-bottom: .02rem;
-    letter-spacing: .35rem;
+    letter-spacing: .5rem;
 }
 img {
     display: block;
@@ -48,7 +56,8 @@ div {
     max-width: 75%;
     line-height: 1.8;
     font-family: "Varela Round", sans-serif;
-    font-size: 135%;
+    font-size: 1.75rem;
+    border-radius: 5rem;
 }
 nav {
     background: #54585A;
@@ -62,21 +71,17 @@ nav {
     margin-bottom: 3%;
     padding: .02%;
     font-family: Bungee, sans-serif;
-    
+    font-size: 1.75rem; 
 }
 footer {
     background: #54585A;
-    border-style: solid;
-    border-bottom: .5rem;
-    border-right: .5rem;
-    border-left: .5rem;
-    border-width: 1.5rem;
-    border-color: black;
+    border-top: solid black 1rem;
     display: block;
-    margin-top: 6%;
+    margin-top: 6rem;
     text-align: center;
-    padding: 1%;
+    padding: 1rem;
     font-family: Bungee, sans-serif;
+    font-size: 1.75rem;
 }
 article {
     background: #8D9093;
@@ -89,13 +94,13 @@ article {
     max-width: 75%;
     line-height: 1.8;
     font-family: "Passion One", sans-serif;
-    font-size: 135%;
+    font-size: 2rem;
     text-align: left;
 }
 h3 {
     color: white;
     font-family: Bungee, sans-serif;
-    font-size: 135%;
+    font-size: 2.75rem;
     text-align: left;
     border-style: solid;
     border-width: .10rem;
@@ -107,7 +112,7 @@ h3 {
 }
 h4{
     font-family: "Passion One", sans-serif;
-    font-size: 120%;
+    font-size: 2.75rem;
     color: #004851;
     margin-top: .5rem;
     margin-bottom: .5rem;
@@ -120,26 +125,20 @@ h5 {
     margin-top: .5rem;
 }
 aside {
-    display: block;
     margin: 0 auto;
     margin-top: 3rem;
+    box-sizing: border-box;
+    width: 18%;
+    border: solid black .75rem;
     background: #54585A;
     font-family: "Passion One", sans-serif;
-    font-size: 125%;
-    max-width: 16%;
-    border-style: solid;
-    border-width: .5rem;
-    padding: 1%;
+    font-size: 2rem;
+    padding: 1rem;
     line-height: 120%;
 }
 #logo {
     display: block;
     margin: 0 auto;
-}
-#icon {
-    display: inline-block;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
 #navigation p{
     display: inline-block;
@@ -154,5 +153,52 @@ h6 {
     margin-bottom: .5rem;
 }
 strong {
+    color: #004851;
+}
+#head p {
+    color: white;
+    font-size: 1.75rem;
+}
+.fa-twitter {
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+}
+.fa-globe {
+    color: white;
+    margin-right: 2rem;
+    font-size: 3rem;
+}
+.fa-facebook-square {
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+}
+.fa-instagram {
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+}
+.fa-youtube {
+    color: white;
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+.fa-twitter:hover {
+    color: #004851;
+}
+.fa-globe:hover {
+    color: #004851;
+}
+.fa-facebook-square:hover {
+    color: #004851;
+}
+.fa-instagram:hover {
+    color: #004851;
+}
+.fa-youtube:hover {
     color: #004851;
 }
